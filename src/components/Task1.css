@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .displayed-data,
+  .add-data {
+    width: 50%;
+  }
+  
+  .displayed-data {
+    margin-right: 20px;
+  }
+  
+  .displayed-data h2,
+  .add-data h2 {
+    margin-bottom: 10px;
+  }
+  
+  .displayed-data ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .displayed-data li {
+    margin-bottom: 10px;
+  }
+  
+  .displayed-data li span {
+    margin-right: 10px;
+  }
+  
+  .add-data input,
+  .add-data button {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+  }
+  
+  .show-more-btn {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
