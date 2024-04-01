@@ -1,0 +1,79 @@
+
+.container {
+  /* background-color: #0c0c0c; */
+    background-color: transparent!;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    /* padding-top: 20px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='date'] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox-group label {
+    margin-right: 10px;
+  }
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .registered-users {
+    margin-top: 20px;
+  }
+  
+  .registered-users li {
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
